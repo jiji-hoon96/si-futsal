@@ -9,6 +9,10 @@
     "lint": "next lint",
     "prepare": "husky"
   },
+  "engines": {
+    "node": ">=20.0.0",
+    "bun": ">=1.0.0"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.48.0",
     "next": "15.1.6",
